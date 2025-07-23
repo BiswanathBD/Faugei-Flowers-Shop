@@ -20,18 +20,38 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+.btn{
+    padding: 20px 80px;
+    color: white;
+}
+
+/* header related style */
 .nav{
     margin: 30px auto;
 }.nav-menu{
     align-items: center;
     gap: 50px;
+    font-weight: 600;
 }
 .hero{
     margin: 120px auto;
     align-items: end;
 }
 
+/* our plants section style */
+.plant-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 4rem auto;
+    gap: 20px;
 
+}
+.plant-card-container img{
+    margin-bottom: 30px;
+}
+.plant-card-container .btn{
+    margin-top: 30px;
+}
 
 
 
@@ -51,12 +71,27 @@
     }
     .hero{
         flex-direction: column-reverse;
-        margin: 28px auto;
+        margin: 20px auto;
     }
     .hero-content{
-        margin: 20px;
+        padding: 10px;
     }
-    h1{
+    h1, h2{
         font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .plants p{
+        margin: 10px;
+    }
+    .plant-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+        gap: 10px;
+    }
+    .btn{
+        padding: 20px;
+        width: 100%;
     }
 }
