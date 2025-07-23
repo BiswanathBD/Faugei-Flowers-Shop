@@ -1,0 +1,62 @@
+/* google font */
+
+.noto-serif {
+  font-family: "Noto Serif";
+}
+.inter{
+  font-family: "Inter";
+}
+
+
+/* universal styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* shared styles */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav{
+    margin: 30px auto;
+}.nav-menu{
+    align-items: center;
+    gap: 50px;
+}
+.hero{
+    margin: 120px auto;
+    align-items: end;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+/* shared style */
+    .logo{
+        max-width: 4rem;
+    }
+    .nav{
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+    .nav-item{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        margin: 28px auto;
+    }
+    .hero-content{
+        margin: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
