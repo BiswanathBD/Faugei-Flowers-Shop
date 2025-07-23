@@ -52,7 +52,22 @@
 .plant-card-container .btn{
     margin-top: 30px;
 }
-
+.lover{
+    gap: 60px;
+    position: relative;
+    align-items: center;
+    margin: 120px auto;
+}
+.lover li{
+    margin-bottom: 20px;
+    list-style: disc;
+    margin-left: 30px;
+}
+.trasted-badge{
+    position: absolute;
+    width: 286px;
+    translate: 120%;
+}
 
 
 
@@ -79,7 +94,7 @@
     h1, h2{
         font-size: 1.5rem;
     }
-    p{
+    p, .lover li{
         font-size: 0.9rem;
     }
     .plants p{
@@ -93,5 +108,17 @@
     .btn{
         padding: 20px;
         width: 100%;
+    }
+
+    .trasted-badge{
+        display: none;
+    }
+    .lover{
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+    .lover h2{
+        margin-bottom: 10px;
     }
 }
