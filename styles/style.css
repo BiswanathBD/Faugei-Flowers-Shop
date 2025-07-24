@@ -201,4 +201,13 @@
     .deals-card-container a{
         font-size: 1rem;
     }
+    .join-section{
+        aspect-ratio: 16 / 9;
+    }
+    .join-section input{
+        width: 60%;
+    }
+    .join-section button{
+        padding: 15px;
+    }
 }
