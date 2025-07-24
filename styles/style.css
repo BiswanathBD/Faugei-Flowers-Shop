@@ -111,7 +111,30 @@
     justify-items: center;
     align-content: center;
 }
-
+.join-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 1440 / 533;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.join-content{
+    display: flex;
+    justify-content: center;
+}
+.join-section input{
+    width: 40%;
+    background-color: white;
+    padding: 15px 20px;
+}
+.join-section button{
+    background-color: #E95A08;
+    padding: 15px 50px;
+}
 
 
 
